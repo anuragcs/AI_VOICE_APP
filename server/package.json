@@ -1,0 +1,23 @@
+{
+  "name": "revolt-gemini-server",
+  "version": "1.0.0",
+  "description": "Backend server for Revolt Motors Voice Assistant",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["voice", "chat", "gemini", "ai"],
+  "author": "",
+  "license": "ISC"
+} 
